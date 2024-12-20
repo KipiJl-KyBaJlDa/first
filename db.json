@@ -1,1 +1,75 @@
-
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "John",
+            "surname": "Washington",
+            "phiti_url": "https://i0.wp.com/mbu.ug/wp-content/uploads/2020/02/John-Blaq-4-e1582965589666.jpg?fit=768%2C583&ssl=1",
+            "blance": 30000
+        },
+        {
+            "id": 2,
+            "name": "Pablo",
+            "surname": "Makaron",
+            "phiti_url": "https://ir.ozone.ru/s3/multimedia-c/c1000/6064898436.jpg",
+            "blance": 11000
+        },
+        {
+            "id": 3,
+            "name": "Gari",
+            "surname": "Plotniy",
+            "phiti_url": "https://pbs.twimg.com/profile_images/935843303966121985/C2upsh5i_400x400.jpg",
+            "blance": 169999
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "FN SCAR 16S NRCH FDE",
+            "description": "FN SCAR® 16S, обладающий быстрой управляемостью и быстротой стрельбы, оснащен рукоятками без возвратно-поступательного движения.",
+            "price": 3500,
+            "user_id": 2,
+            "photo_url": "https://stvol.ua/storage/products/images/gallery_cropped/a3UJCaiMOXtNlmvwHUFanfgnoWGB9k0rtTPjhpf3.jpeg.webp"
+        },
+        {
+            "id": 2,
+            "name": "Shark Grillz",
+            "description": "Будеш схожий на акулу чи на лоха...",
+            "price": 9999,
+            "user_id": 1,
+            "photo_url": "https://i.ebayimg.com/00/s/MTI3MlgxMjcy/z/LikAAOSwasBe6Hhi/$_1.JPG?set_id=2"
+        },
+        {
+            "id": 3,
+            "name": "Пуер Шу - Старий Банчжан",
+            "description": "Надзвичайно цінний чай, який походить з унікальної місцевості в горах Бу Лань Шань.",
+            "price": 1200,
+            "user_id": 3,
+            "photo_url": "https://themao.com.ua/content/images/1/600x600l80mc0/79505484748701.webp"
+        },
+        {
+            "id": 4,
+            "name": "Magnum Research Desert Eagle L5",
+            "description": "Пистолет от компании Magnum Research, модель Desert Eagle L5 в калибре 50AE. ",
+            "price": 2700,
+            "user_id": 2,
+            "photo_url": "https://stvol.ua/storage/products/images/gallery_cropped/cKJOX9B64AuMp8RdzUFdLPjcjG2Cp8OBZodeIWQt.jpeg.webp"
+        },
+        {
+            "id": 5,
+            "name": "Моносережка Charles 3D",
+            "description": "Біле/жовте золото 18 карат. Приблизна вага натуральних або лабораторно виробщених діамантів: 2,9 ct",
+            "price": 5800,
+            "user_id": 1,
+            "photo_url": "https://nomis-jewelry.com/cdn/shop/files/charlse_3d_3_720x.jpg?v=1725983448"
+        },
+        {
+            "id": 6,
+            "name": "Да Хун Пао - Великий Червоний Халат",
+            "description": "Занурившись у чарівний світ Да Хун Пао, ви відкриєте для себе унікальний та захопливий досвід.",
+            "price": 1999,
+            "user_id": 3,
+            "photo_url": "https://themao.com.ua/content/images/17/800x800l80mc0/elitnyi-chai-da-khun-pao-velykyi-chervonyi-khalat-presovanyi-u-formi-kartyny-1-kh-ekskliuzyvnyi-kytaiskyi-chai-48890313040991.webp"
+        }
+    ]
+}
