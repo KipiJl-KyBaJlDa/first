@@ -1,3 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: aquamarine;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    width: 100%;
+    height: 95vh;
+}
+.market{
+    width: 65%;
+    margin: 20px auto 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    /* border: 2px solid red; */
+    align-items: center;
+    justify-content: space-between;
+}
+header > button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    border: none;
+}
+header img{
+    width: 100%;
+    height: 100%;
+}
+main{
+    width: 100%;
+    height: 80vh;
+    margin-top: 1vw;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-gap: 2%;
+}
+main p{
+    border: 2px solid rgb(4, 255, 0);
 }
